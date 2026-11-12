@@ -1,5 +1,7 @@
 # NOISE-STORM
 
+[![Stars](https://img.shields.io/github/stars/kapildhinwa2010-dev/NOISE-STORM?style=flat-square)](https://github.com/kapildhinwa2010-dev/NOISE-STORM/stargazers) [![Forks](https://img.shields.io/github/forks/kapildhinwa2010-dev/NOISE-STORM?style=flat-square)](https://github.com/kapildhinwa2010-dev/NOISE-STORM/network/members) [![Issues](https://img.shields.io/github/issues/kapildhinwa2010-dev/NOISE-STORM?style=flat-square)](https://github.com/kapildhinwa2010-dev/NOISE-STORM/issues) [![Top language](https://img.shields.io/github/languages/top/kapildhinwa2010-dev/NOISE-STORM?style=flat-square)](https://github.com/kapildhinwa2010-dev/NOISE-STORM)
+
 Pressure-test every block of a model with calibrated noise and map what is fragile.
 
 NOISE-STORM adds seeded Gaussian noise to one block write at a time, at multiples of that write own norm, and measures the downstream score degradation. Blocks whose noise collapses the output are fragile; blocks whose noise barely matters are robust.
